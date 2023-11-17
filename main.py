@@ -92,7 +92,7 @@ async def translate(ctx, *args):
 
 
 keep_alive()  # Starts a webserver to be pinged.
-token = os.environ['DISCORD_BOT_SECRET']  # Discord bot token: Discord dev portal -> Your Bot -> Token
+token = os.environ['MTE3NDk3MTEzMTI4MzkxMDcwNw.G-aUKg.A81HeKVO2ksL80fUe8VptIMsRxupPHi8EKWy6w']  # Discord bot token: Discord dev portal -> Your Bot -> Token
 
 try:
     bot.run(token)  # Starts the bot
